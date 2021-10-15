@@ -21,10 +21,10 @@ main {
   overflow: hidden;
 }
 .slider-description {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #fff;
-  text-shadow: 0px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000,
-    2px 0px 0 #000, -2px 0px 0 #000, 0px -2px 0 #000;
+  text-shadow: 0px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000,
+    1px 0px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000;
 }
 .hidden {
   display: none;
@@ -109,6 +109,21 @@ main {
 #slide5:checked ~ .slider-footer > .slider-control > .label5::after {
   border: 1px solid #71a5f1;
   background-color: #243857;
+}
+#slide1:checked ~ .slider-footer > .slider-description::after {
+  content: 'My face when I got the task to make a slider without JS';
+}
+#slide2:checked ~ .slider-footer > .slider-description::after {
+  content: 'Me: suggested it was a joke';
+}
+#slide3:checked ~ .slider-footer > .slider-description::after {
+  content: 'Me: realize that no. NOOOO!';
+}
+#slide4:checked ~ .slider-footer > .slider-description::after {
+  content: 'Me: hope we will rock you';
+}
+#slide5:checked ~ .slider-footer > .slider-description::after {
+  content: 'Hah that was easy!';
 }
 
 /* #slide1:checked ~ .slider-img {
