@@ -14,7 +14,6 @@ main {
   max-width: 63rem;
   padding: 0 1.5rem;
   margin: 4rem auto;
-  /* background-color: #2e5874; */
 }
 .slider-box {
   display: flex;
@@ -57,7 +56,6 @@ main {
   border-radius: 50%;
   border: 1px solid #71a5f1;
   background-color: #71a5f1;
-  /* transform: translate(-50%, -50%); */
   transition: all 0.18s;
 }
 .btn-img:hover.btn-img::after {
@@ -147,22 +145,6 @@ main {
 #slide5:checked ~ .slider-footer > .slider-description::after {
   content: 'Hah that was easy!';
 }
-
-/* #slide1:checked ~ .slider-img {
-  transform: translateX(0);
-}
-#slide2:checked ~ .slider-img {
-  transform: translateX(-100%);
-}
-#slide3:checked ~ .slider-img {
-  transform: translateX(-200%);
-}
-#slide4:checked ~ .slider-img {
-  transform: translateX(-300%);
-}
-#slide5:checked ~ .slider-img {
-  transform: translateX(-400%);
-} */
 @media only screen and (max-width: 500px) {
   * {
     font-size: 55%;
