@@ -64,6 +64,7 @@ main {
 .btn-img:active.btn-img::after {
   border: 1px solid #71f19c;
   background-color: #71f19c;
+  transform: translateY(1px);
 }
 .input-btn:checked .btn-img::after {
   border: 1px solid #71a5f1;
